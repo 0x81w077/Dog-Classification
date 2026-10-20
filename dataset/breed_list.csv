@@ -1,0 +1,139 @@
+breed,hyperai_dogbreeds,kaggle_breedid,oxford,stanford,tsinghua,total
+Teddy,0,0,0,0,1500,1500
+Samoyed,1,0,142,129,1228,1500
+Labrador Retriever,13,0,0,62,1425,1500
+Miniature Schnauzer,0,0,0,102,1398,1500
+Pomeranian,8,0,153,160,1179,1500
+Golden Retriever,7,0,0,48,1445,1500
+Cardigan,1,0,0,69,1430,1500
+Chinese Rural Dog,0,0,0,0,1500,1500
+Border Collie,9,0,0,69,1422,1500
+Bichon Frise,8,0,0,0,1492,1500
+Toy Poodle,6,0,0,66,1428,1500
+Malamute,0,0,0,178,1158,1336
+Siberian Husky,15,0,0,190,985,1190
+French Bulldog,3,0,0,159,968,1130
+Pug,27,0,200,200,618,1045
+Shiba Dog,0,0,0,0,1039,1039
+Papillon,0,0,0,195,619,814
+Miniature Pinscher,0,0,199,184,386,769
+Chihuahua,6,0,200,152,277,635
+Yorkshire Terrier,8,0,199,164,182,553
+Cocker Spaniel,23,0,195,159,130,507
+Beagle,9,0,200,195,96,500
+Pekinese,0,0,0,149,334,483
+Great Pyrenees,7,0,195,213,46,461
+Basset,0,0,199,175,85,459
+Leonberg,3,3,197,207,47,457
+Japanese Spaniel,0,0,193,179,79,451
+Boxer,3,0,198,151,80,432
+Newfoundland,0,0,194,195,42,431
+Keeshond,0,0,188,157,82,427
+Wheaten Terrier,1,0,181,154,89,425
+Saint Bernard,0,0,194,169,52,415
+German Short Haired Pointer,1,0,196,152,65,414
+Scotch Terrier,0,0,190,157,65,412
+English Setter,1,0,193,158,51,403
+Staffordshire Bullterrier,2,0,191,151,52,396
+Shih Tzu,2,0,0,213,162,377
+Komondor,2,2,0,153,187,344
+Chow,1,0,0,196,141,338
+Standard Poodle,0,0,0,158,172,330
+Shetland Sheepdog,2,0,0,157,127,286
+Whippet,0,0,0,186,98,284
+English Springer,0,0,0,158,124,282
+Basenji,0,0,0,209,68,277
+Irish Wolfhound,0,0,0,218,56,274
+Old English Sheepdog,2,0,0,169,102,273
+Italian Greyhound,0,0,0,182,90,272
+Maltese Dog,1,0,0,251,18,270
+Afghan Hound,0,0,0,239,27,266
+Toy Terrier,18,0,0,172,69,259
+African Hunting Dog,0,0,0,169,89,258
+Black Sable,0,0,0,0,254,254
+Japanese Spitzes,6,0,0,0,248,254
+Rhodesian Ridgeback,0,0,0,172,80,252
+Boston Bull,2,0,0,182,67,251
+Kerry Blue Terrier,1,1,0,178,70,250
+Bull Mastiff,0,0,0,156,94,250
+Weimaraner,0,0,0,160,90,250
+Scottish Deerhound,0,0,0,229,21,250
+Greater Swiss Mountain Dog,0,0,0,164,84,248
+Cane Carso,0,0,0,0,247,247
+Clumber,0,0,0,148,99,247
+Eskimo Dog,0,0,0,148,98,246
+Silky Terrier,0,0,0,182,62,244
+Briard,1,0,0,151,92,244
+Borzoi,0,0,0,151,93,244
+Gordon Setter,0,0,0,153,90,243
+Entlebucher,0,0,0,200,43,243
+Kuvasz,0,0,0,149,94,243
+Appenzeller,0,0,0,149,92,241
+Australian Shepherd,0,0,0,0,240,240
+Brittany Spaniel,0,0,0,152,86,238
+Standard Schnauzer,0,0,0,151,87,238
+Malinois,0,0,0,149,88,237
+Chesapeake Bay Retriever,0,0,0,167,70,237
+West Highland White Terrier,7,0,0,168,62,237
+Saluki,0,1,0,199,37,237
+Giant Schnauzer,0,0,0,155,81,236
+Mexican Hairless,3,1,0,148,82,234
+Collie,0,0,0,147,87,234
+Bouvier Des Flandres,1,0,0,148,84,233
+Sealyham Terrier,0,0,0,194,39,233
+English Foxhound,0,0,0,151,82,233
+Dandie Dinmont,0,0,0,179,52,231
+Groenendael,0,0,0,147,84,231
+Wire Haired Fox Terrier,1,1,0,149,80,231
+Dingo,0,0,0,155,76,231
+Dhole,0,0,0,144,86,230
+German Shepherd,13,0,0,152,65,230
+Norwich Terrier,1,0,0,183,45,229
+Rottweiler,0,0,0,152,77,229
+Chinese Crested Dog,0,0,0,0,228,228
+Great Dane,11,0,0,156,61,228
+Irish Water Spaniel,0,0,0,146,81,227
+Bluetick,0,0,0,168,59,227
+Bernese Mountain Dog,1,1,0,216,7,225
+Otterhound,0,0,0,150,75,225
+Black And Tan Coonhound,0,0,0,158,66,224
+Lakeland Terrier,0,0,0,192,32,224
+Irish Setter,2,0,0,155,67,224
+Norwegian Elkhound,0,0,0,196,27,223
+Sussex Spaniel,2,2,0,146,73,223
+Bedlington Terrier,0,0,0,179,44,223
+Pembroke,0,0,0,181,42,223
+Irish Terrier,0,0,0,167,55,222
+Bloodhound,0,0,0,184,37,221
+Doberman,2,0,0,150,68,220
+American Staffordshire Terrier,1,0,0,161,58,220
+Ibizan Hound,0,0,0,188,31,219
+Blenheim Spaniel,0,0,0,185,34,219
+Flat Coated Retriever,0,0,0,152,66,218
+Cairn,0,0,0,197,21,218
+Vizsla,0,0,0,154,63,217
+Kelpie,0,0,0,153,63,216
+Redbone,0,0,0,146,69,215
+Norfolk Terrier,3,0,0,171,40,214
+Lhasa,1,0,0,186,27,214
+Schipperke,0,0,0,151,63,214
+Fila Braziliero,0,0,0,0,213,213
+Walker Hound,0,0,0,146,67,213
+Welsh Springer Spaniel,0,0,0,149,63,212
+Brabancon Griffo,0,0,0,146,65,211
+Tibetan Terrier,0,1,0,203,7,211
+Border Terrier,0,0,0,172,39,211
+Curly Coated Retriever,0,0,0,149,62,211
+Miniature Poodle,4,0,0,151,54,209
+Australian Terrier,1,0,0,194,13,208
+Tibetan Mastiff,0,0,0,151,56,207
+Airedale,0,0,0,202,3,205
+Havanese,5,0,199,0,0,204
+American Bulldog,0,0,200,0,0,200
+American Pit Bull Terrier,0,0,200,0,0,200
+Affenpinscher,0,0,0,147,53,200
+Shiba Inu,0,0,200,0,0,200
+Mix,146,0,0,0,0,146
+Caucasian Ovcharka,30,0,0,0,0,30
+Dachshund,30,0,0,0,0,30
+Shiba,23,0,0,0,0,23

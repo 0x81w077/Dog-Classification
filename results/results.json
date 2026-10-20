@@ -1,0 +1,1805 @@
+{
+ "class_names": [
+  "Affenpinscher",
+  "Afghan Hound",
+  "African Hunting Dog",
+  "Airedale",
+  "American Bulldog",
+  "American Pit Bull Terrier",
+  "American Staffordshire Terrier",
+  "Appenzeller",
+  "Australian Shepherd",
+  "Australian Terrier",
+  "Basenji",
+  "Basset",
+  "Beagle",
+  "Bedlington Terrier",
+  "Bernese Mountain Dog",
+  "Bichon Frise",
+  "Black And Tan Coonhound",
+  "Black Sable",
+  "Blenheim Spaniel",
+  "Bloodhound",
+  "Bluetick",
+  "Border Collie",
+  "Border Terrier",
+  "Borzoi",
+  "Boston Bull",
+  "Bouvier Des Flandres",
+  "Boxer",
+  "Brabancon Griffo",
+  "Briard",
+  "Brittany Spaniel",
+  "Bull Mastiff",
+  "Cairn",
+  "Cane Carso",
+  "Cardigan",
+  "Caucasian Ovcharka",
+  "Chesapeake Bay Retriever",
+  "Chihuahua",
+  "Chinese Crested Dog",
+  "Chinese Rural Dog",
+  "Chow",
+  "Clumber",
+  "Cocker Spaniel",
+  "Collie",
+  "Curly Coated Retriever",
+  "Dachshund",
+  "Dandie Dinmont",
+  "Dhole",
+  "Dingo",
+  "Doberman",
+  "English Foxhound",
+  "English Setter",
+  "English Springer",
+  "Entlebucher",
+  "Eskimo Dog",
+  "Fila Braziliero",
+  "Flat Coated Retriever",
+  "French Bulldog",
+  "German Shepherd",
+  "German Short Haired Pointer",
+  "Giant Schnauzer",
+  "Golden Retriever",
+  "Gordon Setter",
+  "Great Dane",
+  "Great Pyrenees",
+  "Greater Swiss Mountain Dog",
+  "Groenendael",
+  "Havanese",
+  "Ibizan Hound",
+  "Irish Setter",
+  "Irish Terrier",
+  "Irish Water Spaniel",
+  "Irish Wolfhound",
+  "Italian Greyhound",
+  "Japanese Spaniel",
+  "Japanese Spitzes",
+  "Keeshond",
+  "Kelpie",
+  "Kerry Blue Terrier",
+  "Komondor",
+  "Kuvasz",
+  "Labrador Retriever",
+  "Lakeland Terrier",
+  "Leonberg",
+  "Lhasa",
+  "Malamute",
+  "Malinois",
+  "Maltese Dog",
+  "Mexican Hairless",
+  "Miniature Pinscher",
+  "Miniature Poodle",
+  "Miniature Schnauzer",
+  "Mix",
+  "Newfoundland",
+  "Norfolk Terrier",
+  "Norwegian Elkhound",
+  "Norwich Terrier",
+  "Old English Sheepdog",
+  "Otterhound",
+  "Papillon",
+  "Pekinese",
+  "Pembroke",
+  "Pomeranian",
+  "Pug",
+  "Redbone",
+  "Rhodesian Ridgeback",
+  "Rottweiler",
+  "Saint Bernard",
+  "Saluki",
+  "Samoyed",
+  "Schipperke",
+  "Scotch Terrier",
+  "Scottish Deerhound",
+  "Sealyham Terrier",
+  "Shetland Sheepdog",
+  "Shiba",
+  "Shiba Dog",
+  "Shiba Inu",
+  "Shih Tzu",
+  "Siberian Husky",
+  "Silky Terrier",
+  "Staffordshire Bullterrier",
+  "Standard Poodle",
+  "Standard Schnauzer",
+  "Sussex Spaniel",
+  "Teddy",
+  "Tibetan Mastiff",
+  "Tibetan Terrier",
+  "Toy Poodle",
+  "Toy Terrier",
+  "Vizsla",
+  "Walker Hound",
+  "Weimaraner",
+  "Welsh Springer Spaniel",
+  "West Highland White Terrier",
+  "Wheaten Terrier",
+  "Whippet",
+  "Wire Haired Fox Terrier",
+  "Yorkshire Terrier"
+ ],
+ "n_classes": 138,
+ "eda": {
+  "n_images": 55599,
+  "n_classes": 138,
+  "per_class_min": 23,
+  "per_class_median": 242.0,
+  "per_class_mean": 402.89130434782606,
+  "per_class_max": 1500,
+  "imbalance_ratio": 65.21739130434783,
+  "verdict": "imbalanced",
+  "n_capped": 11,
+  "n_under_100": 3,
+  "n_under_60": 3,
+  "most_images": {
+   "Teddy": 1500,
+   "Samoyed": 1500,
+   "Labrador Retriever": 1500,
+   "Miniature Schnauzer": 1500,
+   "Pomeranian": 1500
+  },
+  "fewest_images": {
+   "Shiba Inu": 200,
+   "Mix": 146,
+   "Caucasian Ovcharka": 30,
+   "Dachshund": 30,
+   "Shiba": 23
+  },
+  "sources": [
+   {
+    "source": "tsinghua",
+    "downloaded_and_readable": 70432,
+    "after_cleaning": 30564,
+    "breeds": 130,
+    "dataset": "Tsinghua Dogs Dataset"
+   },
+   {
+    "source": "stanford",
+    "downloaded_and_readable": 20580,
+    "after_cleaning": 19738,
+    "breeds": 120,
+    "dataset": "Stanford Dogs Dataset"
+   },
+   {
+    "source": "oxford",
+    "downloaded_and_readable": 4990,
+    "after_cleaning": 4796,
+    "breeds": 25,
+    "dataset": "Oxford-IIIT Pet Dataset (dog breeds only)"
+   },
+   {
+    "source": "hyperai_dogbreeds",
+    "downloaded_and_readable": 17498,
+    "after_cleaning": 488,
+    "breeds": 54,
+    "dataset": "Dog Breeds Image Dataset (HyperAI listing)"
+   },
+   {
+    "source": "kaggle_breedid",
+    "downloaded_and_readable": 10222,
+    "after_cleaning": 13,
+    "breeds": 9,
+    "dataset": "Dog Breed Identification (Kaggle competition)"
+   }
+  ],
+  "clean": {
+   "after_merge_images": 123722,
+   "duplicates_removed": 46005,
+   "conflicts_removed": 491,
+   "after_dedupe_images": 77226,
+   "names_learned": 21,
+   "names_merged": 5,
+   "breeds_dropped": 32,
+   "images_in_dropped_breeds": 142,
+   "images_before_cap": 77084,
+   "images_final": 55599,
+   "n_classes": 138,
+   "train": 44479,
+   "val": 5560,
+   "test": 5560
+  },
+  "img_store": 256,
+  "img_input": 224,
+  "dims": {
+   "n_measured": 55599,
+   "w_median": 400.0,
+   "h_median": 375.0,
+   "w_min": 97,
+   "w_max": 5184,
+   "h_min": 96,
+   "h_max": 4032,
+   "square_share": 0.08205183546466663,
+   "landscape_share": 0.5277792766056943
+  },
+  "splits": {
+   "train": {
+    "images": 44479,
+    "share": 0.7999964028130002,
+    "per_class_min": 19,
+    "per_class_max": 1200
+   },
+   "validation": {
+    "images": 5560,
+    "share": 0.10000179859349988,
+    "per_class_min": 2,
+    "per_class_max": 150
+   },
+   "test": {
+    "images": 5560,
+    "share": 0.10000179859349988,
+    "per_class_min": 2,
+    "per_class_max": 150
+   }
+  },
+  "split_max_share_deviation": 0.0001078315031027028
+ },
+ "preprocessing": {
+  "batch_images": [
+   32,
+   224,
+   224,
+   3
+  ],
+  "batch_labels": [
+   32,
+   138
+  ]
+ },
+ "cnn_layers": [
+  {
+   "name": "image",
+   "type": "InputLayer",
+   "output": "(None, 224, 224, 3)",
+   "params": 0
+  },
+  {
+   "name": "resize",
+   "type": "Resizing",
+   "output": "(None, 128, 128, 3)",
+   "params": 0
+  },
+  {
+   "name": "augment",
+   "type": "Sequential",
+   "output": "(None, 128, 128, 3)",
+   "params": 0
+  },
+  {
+   "name": "rescale",
+   "type": "Rescaling",
+   "output": "(None, 128, 128, 3)",
+   "params": 0
+  },
+  {
+   "name": "conv2d",
+   "type": "Conv2D",
+   "output": "(None, 128, 128, 32)",
+   "params": 864
+  },
+  {
+   "name": "batch_normalization",
+   "type": "BatchNormalization",
+   "output": "(None, 128, 128, 32)",
+   "params": 128
+  },
+  {
+   "name": "re_lu",
+   "type": "ReLU",
+   "output": "(None, 128, 128, 32)",
+   "params": 0
+  },
+  {
+   "name": "conv2d_1",
+   "type": "Conv2D",
+   "output": "(None, 128, 128, 32)",
+   "params": 9216
+  },
+  {
+   "name": "batch_normalization_1",
+   "type": "BatchNormalization",
+   "output": "(None, 128, 128, 32)",
+   "params": 128
+  },
+  {
+   "name": "re_lu_1",
+   "type": "ReLU",
+   "output": "(None, 128, 128, 32)",
+   "params": 0
+  },
+  {
+   "name": "max_pooling2d",
+   "type": "MaxPooling2D",
+   "output": "(None, 64, 64, 32)",
+   "params": 0
+  },
+  {
+   "name": "conv2d_2",
+   "type": "Conv2D",
+   "output": "(None, 64, 64, 64)",
+   "params": 18432
+  },
+  {
+   "name": "batch_normalization_2",
+   "type": "BatchNormalization",
+   "output": "(None, 64, 64, 64)",
+   "params": 256
+  },
+  {
+   "name": "re_lu_2",
+   "type": "ReLU",
+   "output": "(None, 64, 64, 64)",
+   "params": 0
+  },
+  {
+   "name": "conv2d_3",
+   "type": "Conv2D",
+   "output": "(None, 64, 64, 64)",
+   "params": 36864
+  },
+  {
+   "name": "batch_normalization_3",
+   "type": "BatchNormalization",
+   "output": "(None, 64, 64, 64)",
+   "params": 256
+  },
+  {
+   "name": "re_lu_3",
+   "type": "ReLU",
+   "output": "(None, 64, 64, 64)",
+   "params": 0
+  },
+  {
+   "name": "max_pooling2d_1",
+   "type": "MaxPooling2D",
+   "output": "(None, 32, 32, 64)",
+   "params": 0
+  },
+  {
+   "name": "conv2d_4",
+   "type": "Conv2D",
+   "output": "(None, 32, 32, 128)",
+   "params": 73728
+  },
+  {
+   "name": "batch_normalization_4",
+   "type": "BatchNormalization",
+   "output": "(None, 32, 32, 128)",
+   "params": 512
+  },
+  {
+   "name": "re_lu_4",
+   "type": "ReLU",
+   "output": "(None, 32, 32, 128)",
+   "params": 0
+  },
+  {
+   "name": "conv2d_5",
+   "type": "Conv2D",
+   "output": "(None, 32, 32, 128)",
+   "params": 147456
+  },
+  {
+   "name": "batch_normalization_5",
+   "type": "BatchNormalization",
+   "output": "(None, 32, 32, 128)",
+   "params": 512
+  },
+  {
+   "name": "re_lu_5",
+   "type": "ReLU",
+   "output": "(None, 32, 32, 128)",
+   "params": 0
+  },
+  {
+   "name": "max_pooling2d_2",
+   "type": "MaxPooling2D",
+   "output": "(None, 16, 16, 128)",
+   "params": 0
+  },
+  {
+   "name": "conv2d_6",
+   "type": "Conv2D",
+   "output": "(None, 16, 16, 256)",
+   "params": 294912
+  },
+  {
+   "name": "batch_normalization_6",
+   "type": "BatchNormalization",
+   "output": "(None, 16, 16, 256)",
+   "params": 1024
+  },
+  {
+   "name": "re_lu_6",
+   "type": "ReLU",
+   "output": "(None, 16, 16, 256)",
+   "params": 0
+  },
+  {
+   "name": "conv2d_7",
+   "type": "Conv2D",
+   "output": "(None, 16, 16, 256)",
+   "params": 589824
+  },
+  {
+   "name": "batch_normalization_7",
+   "type": "BatchNormalization",
+   "output": "(None, 16, 16, 256)",
+   "params": 1024
+  },
+  {
+   "name": "re_lu_7",
+   "type": "ReLU",
+   "output": "(None, 16, 16, 256)",
+   "params": 0
+  },
+  {
+   "name": "max_pooling2d_3",
+   "type": "MaxPooling2D",
+   "output": "(None, 8, 8, 256)",
+   "params": 0
+  },
+  {
+   "name": "global_average_pooling2d",
+   "type": "GlobalAveragePooling2D",
+   "output": "(None, 256)",
+   "params": 0
+  },
+  {
+   "name": "dense",
+   "type": "Dense",
+   "output": "(None, 512)",
+   "params": 131584
+  },
+  {
+   "name": "dropout",
+   "type": "Dropout",
+   "output": "(None, 512)",
+   "params": 0
+  },
+  {
+   "name": "dense_1",
+   "type": "Dense",
+   "output": "(None, 138)",
+   "params": 70794
+  }
+ ],
+ "cnn": {
+  "accuracy": 0.5260791366906474,
+  "top5": 0.8339928057553957,
+  "precision_macro": 0.48220878006865864,
+  "recall_macro": 0.43636446455687333,
+  "f1_macro": 0.43507460866457154,
+  "precision_weighted": 0.5408275306764786,
+  "recall_weighted": 0.5260791366906474,
+  "f1_weighted": 0.5150567458168396,
+  "params": 1377514,
+  "minutes": 54.68234250942866,
+  "epochs_run": 30,
+  "best_epoch": 24,
+  "max_epochs": 30,
+  "history": {
+   "accuracy": [
+    0.065176822245121,
+    0.12196767330169678,
+    0.16358281672000885,
+    0.2010386884212494,
+    0.2362912893295288,
+    0.2705996036529541,
+    0.3015580475330353,
+    0.3267834186553955,
+    0.35126689076423645,
+    0.3785606622695923,
+    0.3963443338871002,
+    0.41581419110298157,
+    0.43146204948425293,
+    0.4517412781715393,
+    0.4633197784423828,
+    0.5029564499855042,
+    0.5115447640419006,
+    0.5232806205749512,
+    0.5324085354804993,
+    0.5357359647750854,
+    0.543604850769043,
+    0.5502147078514099,
+    0.5549585223197937,
+    0.579666793346405,
+    0.5855347514152527,
+    0.5906158089637756,
+    0.5943928360939026,
+    0.6044425368309021,
+    0.6096809506416321,
+    0.6107601523399353
+   ],
+   "loss": [
+    4.3137407302856445,
+    3.843017816543579,
+    3.5173850059509277,
+    3.2955737113952637,
+    3.0842833518981934,
+    2.901942253112793,
+    2.737208127975464,
+    2.5978994369506836,
+    2.466961145401001,
+    2.340881824493408,
+    2.248983383178711,
+    2.151545763015747,
+    2.0708212852478027,
+    2.003537178039551,
+    1.9347699880599976,
+    1.7783393859863281,
+    1.712964653968811,
+    1.6840202808380127,
+    1.6453438997268677,
+    1.6163054704666138,
+    1.5945099592208862,
+    1.5630592107772827,
+    1.5350759029388428,
+    1.4454501867294312,
+    1.4130873680114746,
+    1.4055699110031128,
+    1.380287528038025,
+    1.3408435583114624,
+    1.3305747509002686,
+    1.313789963722229
+   ],
+   "top5": [
+    0.23500977456569672,
+    0.3527507483959198,
+    0.4323163628578186,
+    0.49200746417045593,
+    0.5421434640884399,
+    0.5840059518814087,
+    0.6266777515411377,
+    0.6593673229217529,
+    0.688504695892334,
+    0.7143371105194092,
+    0.7349311113357544,
+    0.7566267251968384,
+    0.771285355091095,
+    0.7831560969352722,
+    0.7957237958908081,
+    0.824681282043457,
+    0.8361024260520935,
+    0.8411160111427307,
+    0.8485127687454224,
+    0.8528293967247009,
+    0.8559769988059998,
+    0.8623844981193542,
+    0.8667011260986328,
+    0.8796510696411133,
+    0.8861260414123535,
+    0.8859012126922607,
+    0.8879696130752563,
+    0.8959059119224548,
+    0.8963780403137207,
+    0.9003799557685852
+   ],
+   "val_accuracy": [
+    0.05089928209781647,
+    0.07967625558376312,
+    0.09262590110301971,
+    0.09406474977731705,
+    0.159532368183136,
+    0.21133093535900116,
+    0.16636690497398376,
+    0.19010791182518005,
+    0.3109712302684784,
+    0.30773380398750305,
+    0.2976618707180023,
+    0.37517985701560974,
+    0.34154677391052246,
+    0.35917267203330994,
+    0.375,
+    0.42931655049324036,
+    0.44784173369407654,
+    0.46942445635795593,
+    0.4559352397918701,
+    0.5046762824058533,
+    0.48111510276794434,
+    0.43147483468055725,
+    0.5091726779937744,
+    0.5196043252944946,
+    0.4557553827762604,
+    0.48381295800209045,
+    0.513129472732544,
+    0.5071942210197449,
+    0.5122302174568176,
+    0.5239208340644836
+   ],
+   "val_loss": [
+    4.435953140258789,
+    4.323615550994873,
+    4.187626838684082,
+    4.234785079956055,
+    3.6334149837493896,
+    3.3470640182495117,
+    3.5148396492004395,
+    3.4170618057250977,
+    2.7128360271453857,
+    2.8024725914001465,
+    2.8252782821655273,
+    2.387699604034424,
+    2.5870418548583984,
+    2.4524829387664795,
+    2.4389331340789795,
+    2.1795544624328613,
+    2.0411078929901123,
+    1.9743378162384033,
+    2.0215511322021484,
+    1.8190525770187378,
+    1.911332130432129,
+    2.148773431777954,
+    1.8277907371520996,
+    1.7325713634490967,
+    2.011843204498291,
+    1.8968783617019653,
+    1.79851496219635,
+    1.7891227006912231,
+    1.7732077836990356,
+    1.7461719512939453
+   ],
+   "val_top5": [
+    0.21618704497814178,
+    0.2505395710468292,
+    0.27535971999168396,
+    0.2730215787887573,
+    0.42661869525909424,
+    0.4796762466430664,
+    0.4303956925868988,
+    0.46654677391052246,
+    0.6325539350509644,
+    0.6190647482872009,
+    0.6163669228553772,
+    0.7030575275421143,
+    0.6636690497398376,
+    0.6872302293777466,
+    0.6836330890655518,
+    0.7462230324745178,
+    0.7760791182518005,
+    0.7881295084953308,
+    0.7769784331321716,
+    0.8149280548095703,
+    0.803597092628479,
+    0.7517985701560974,
+    0.807374119758606,
+    0.8284172415733337,
+    0.7796762585639954,
+    0.8039568066596985,
+    0.814748227596283,
+    0.8161870241165161,
+    0.8170863389968872,
+    0.8242805600166321
+   ],
+   "learning_rate": [
+    0.0010000000474974513,
+    0.0010000000474974513,
+    0.0010000000474974513,
+    0.0010000000474974513,
+    0.0010000000474974513,
+    0.0010000000474974513,
+    0.0010000000474974513,
+    0.0010000000474974513,
+    0.0010000000474974513,
+    0.0010000000474974513,
+    0.0010000000474974513,
+    0.0010000000474974513,
+    0.0010000000474974513,
+    0.0010000000474974513,
+    0.0010000000474974513,
+    0.0005000000237487257,
+    0.0005000000237487257,
+    0.0005000000237487257,
+    0.0005000000237487257,
+    0.0005000000237487257,
+    0.0005000000237487257,
+    0.0005000000237487257,
+    0.0005000000237487257,
+    0.0002500000118743628,
+    0.0002500000118743628,
+    0.0002500000118743628,
+    0.0002500000118743628,
+    0.0001250000059371814,
+    0.0001250000059371814,
+    0.0001250000059371814
+   ]
+  },
+  "diagnosis": {
+   "label": "well fitted",
+   "text": "Training accuracy (58.0%) and validation accuracy (52.0%) are close (gap +6.0%) and both are high or still improving, so the model is well fitted. (Training accuracy is measured with augmentation and dropout switched on, which is why it can sit slightly below validation.)",
+   "train_acc": 0.579666793346405,
+   "val_acc": 0.5196043252944946,
+   "gap": 0.0600624680519104,
+   "epoch": 24
+  },
+  "batch": 64,
+  "lr": 0.001,
+  "optimizer": "Adam",
+  "loss": "categorical cross-entropy",
+  "dropout": 0.5,
+  "input": 128,
+  "train_acc": 0.579666793346405,
+  "val_acc": 0.5196043252944946,
+  "train_loss": 1.4454501867294312,
+  "val_loss": 1.7325713634490967
+ },
+ "transfer_default": {
+  "accuracy": 0.8393884892086331,
+  "top5": 0.9800359712230216,
+  "precision_macro": 0.8488834293536746,
+  "recall_macro": 0.8374857126014372,
+  "f1_macro": 0.8366377504219278,
+  "precision_weighted": 0.8396151068799735,
+  "recall_weighted": 0.8393884892086331,
+  "f1_weighted": 0.8352832469276741,
+  "arch": "EfficientNetV2B0",
+  "params": 6096090,
+  "minutes": 15.798159861564637,
+  "epochs_run": 8,
+  "history": {
+   "accuracy": [
+    0.7051867246627808,
+    0.781042754650116,
+    0.7958587408065796,
+    0.8178691267967224,
+    0.8329773545265198,
+    0.8396322131156921,
+    0.8495694398880005,
+    0.8568088412284851
+   ],
+   "loss": [
+    1.8243658542633057,
+    1.5226211547851562,
+    1.4801547527313232,
+    1.4094946384429932,
+    1.3658665418624878,
+    1.3384149074554443,
+    1.311667799949646,
+    1.2898038625717163
+   ],
+   "top5": [
+    0.9249983429908752,
+    0.9650171995162964,
+    0.9705928564071655,
+    0.976842999458313,
+    0.980709969997406,
+    0.984194815158844,
+    0.9853639006614685,
+    0.9875896573066711
+   ],
+   "val_accuracy": [
+    0.8091726899147034,
+    0.8091726899147034,
+    0.8161870241165161,
+    0.824999988079071,
+    0.8267985582351685,
+    0.8276978135108948,
+    0.8269784450531006,
+    0.8260791301727295
+   ],
+   "val_loss": [
+    1.426098346710205,
+    1.4055991172790527,
+    1.3908238410949707,
+    1.3550136089324951,
+    1.3414326906204224,
+    1.3364309072494507,
+    1.3261620998382568,
+    1.3278203010559082
+   ],
+   "val_top5": [
+    0.9733812808990479,
+    0.9744604229927063,
+    0.9755395650863647,
+    0.9762589931488037,
+    0.9773381352424622,
+    0.9784172773361206,
+    0.9789568185806274,
+    0.9782373905181885
+   ]
+  },
+  "hp": {
+   "dropout": 0.3,
+   "dense": 0,
+   "ls": 0.1,
+   "lr_head": 0.001,
+   "lr_ft": 5e-05,
+   "wd": 0.001,
+   "unfreeze": 0.3,
+   "aug": 0.5,
+   "batch": 32,
+   "arch": "EfficientNetV2B0"
+  },
+  "diagnosis": {
+   "label": "well fitted",
+   "text": "Training accuracy (84.0%) and validation accuracy (82.8%) are close (gap +1.2%) and both are high or still improving, so the model is well fitted. (Training accuracy is measured with augmentation and dropout switched on, which is why it can sit slightly below validation.)",
+   "train_acc": 0.8396322131156921,
+   "val_acc": 0.8276978135108948,
+   "gap": 0.011934399604797363,
+   "epoch": 6
+  },
+  "train_acc": 0.8396322131156921,
+  "val_acc": 0.8276978135108948
+ },
+ "transfer_tuned": {
+  "accuracy": 0.841726618705036,
+  "top5": 0.9796762589928057,
+  "precision_macro": 0.8500036151390258,
+  "recall_macro": 0.8367052545920771,
+  "f1_macro": 0.8379561504027031,
+  "precision_weighted": 0.8402093253020285,
+  "recall_weighted": 0.841726618705036,
+  "f1_weighted": 0.8380019865407411,
+  "arch": "EfficientNetV2B0",
+  "hp": {
+   "dropout": 0.38242799368681435,
+   "dense": 0,
+   "ls": 0.10284688768272232,
+   "lr_head": 0.0011736424885649085,
+   "lr_ft": 1.1711509955524086e-05,
+   "wd": 0.004362599362560562,
+   "unfreeze": 0.33641929894983325,
+   "aug": 0.06505159298527952,
+   "batch": 32,
+   "arch": "EfficientNetV2B0"
+  },
+  "params": 6096090,
+  "minutes": 55.9390684167544,
+  "epochs_run": 28,
+  "diagnosis": {
+   "label": "well fitted",
+   "text": "Training accuracy (89.4%) and validation accuracy (83.8%) are close (gap +5.5%) and both are high or still improving, so the model is well fitted. (Training accuracy is measured with augmentation and dropout switched on, which is why it can sit slightly below validation.)",
+   "train_acc": 0.8935902118682861,
+   "val_acc": 0.8381295204162598,
+   "gap": 0.05546069145202637,
+   "epoch": 28
+  },
+  "train_acc": 0.8935902118682861,
+  "val_acc": 0.8381295204162598,
+  "train_loss": 1.2221940755844116,
+  "val_loss": 1.3199455738067627,
+  "best_epoch": 28,
+  "head_epochs": 3,
+  "history": {
+   "accuracy": [
+    0.7215090394020081,
+    0.7924638390541077,
+    0.8025810122489929,
+    0.8263225555419922,
+    0.8319206833839417,
+    0.8369792699813843,
+    0.8417455554008484,
+    0.8452078700065613,
+    0.8481755256652832,
+    0.8495919704437256,
+    0.8549652695655823,
+    0.8574833273887634,
+    0.8621596693992615,
+    0.8642730116844177,
+    0.8644528985023499,
+    0.8677128553390503,
+    0.8688819408416748,
+    0.8725016117095947,
+    0.8755142688751221,
+    0.8778524994850159,
+    0.8785719275474548,
+    0.8827986121177673,
+    0.8840126991271973,
+    0.8867105841636658,
+    0.8881494402885437,
+    0.8892735838890076,
+    0.8913869261741638,
+    0.8935902118682861
+   ],
+   "loss": [
+    1.7909364700317383,
+    1.5167529582977295,
+    1.4842711687088013,
+    1.4123328924179077,
+    1.391353964805603,
+    1.3777334690093994,
+    1.362722635269165,
+    1.3523917198181152,
+    1.3415706157684326,
+    1.335004448890686,
+    1.3255248069763184,
+    1.3169530630111694,
+    1.3086777925491333,
+    1.3020814657211304,
+    1.294503927230835,
+    1.2879301309585571,
+    1.2797985076904297,
+    1.2748420238494873,
+    1.269347906112671,
+    1.2605491876602173,
+    1.2550100088119507,
+    1.2508827447891235,
+    1.2444077730178833,
+    1.2412365674972534,
+    1.2307076454162598,
+    1.2294669151306152,
+    1.2236417531967163,
+    1.2221940755844116
+   ],
+   "top5": [
+    0.9307538270950317,
+    0.9677600860595703,
+    0.9720542430877686,
+    0.9801254272460938,
+    0.982171356678009,
+    0.9814294576644897,
+    0.9832730293273926,
+    0.9840149283409119,
+    0.985723614692688,
+    0.985813558101654,
+    0.9861057996749878,
+    0.9868927001953125,
+    0.9867802858352661,
+    0.9879493713378906,
+    0.9886013865470886,
+    0.9892308712005615,
+    0.9897929430007935,
+    0.9891633987426758,
+    0.9910744428634644,
+    0.9900851845741272,
+    0.9916814565658569,
+    0.9910744428634644,
+    0.9918163418769836,
+    0.9915690422058105,
+    0.9928280711174011,
+    0.9927831292152405,
+    0.9929180145263672,
+    0.9934800863265991
+   ],
+   "val_accuracy": [
+    0.8089928030967712,
+    0.8057553768157959,
+    0.8172661662101746,
+    0.8232014179229736,
+    0.8262590169906616,
+    0.8248201608657837,
+    0.8248201608657837,
+    0.8280575275421143,
+    0.8289568424224854,
+    0.8296762704849243,
+    0.8303956985473633,
+    0.8307554125785828,
+    0.8312949538230896,
+    0.8329136967658997,
+    0.8291366696357727,
+    0.8327338099479675,
+    0.8347122073173523,
+    0.8348920941352844,
+    0.8354316353797913,
+    0.833812952041626,
+    0.8356115221977234,
+    0.8361510634422302,
+    0.8359712362289429,
+    0.8359712362289429,
+    0.8365107774734497,
+    0.8388489484786987,
+    0.8374100923538208,
+    0.8381295204162598
+   ],
+   "val_loss": [
+    1.4414918422698975,
+    1.4280650615692139,
+    1.4054763317108154,
+    1.3761143684387207,
+    1.36774742603302,
+    1.3623197078704834,
+    1.3582961559295654,
+    1.3532763719558716,
+    1.3492709398269653,
+    1.3476041555404663,
+    1.3426485061645508,
+    1.3405647277832031,
+    1.338026523590088,
+    1.3365323543548584,
+    1.3384828567504883,
+    1.3338158130645752,
+    1.3313382863998413,
+    1.328787922859192,
+    1.3282493352890015,
+    1.328568458557129,
+    1.3258748054504395,
+    1.3238487243652344,
+    1.3240184783935547,
+    1.323835849761963,
+    1.3231630325317383,
+    1.3224674463272095,
+    1.3204396963119507,
+    1.3199455738067627
+   ],
+   "val_top5": [
+    0.972841739654541,
+    0.9746403098106384,
+    0.9782373905181885,
+    0.9782373905181885,
+    0.9784172773361206,
+    0.9789568185806274,
+    0.9789568185806274,
+    0.9782373905181885,
+    0.9789568185806274,
+    0.9791367053985596,
+    0.9796762466430664,
+    0.978597104549408,
+    0.9793165326118469,
+    0.9791367053985596,
+    0.9784172773361206,
+    0.9789568185806274,
+    0.9789568185806274,
+    0.9807553887367249,
+    0.979496419429779,
+    0.980215847492218,
+    0.9800359606742859,
+    0.9803956747055054,
+    0.980935275554657,
+    0.9805755615234375,
+    0.980935275554657,
+    0.9807553887367249,
+    0.981654703617096,
+    0.9805755615234375
+   ],
+   "learning_rate": [
+    1.1711509614542592e-05,
+    1.1711509614542592e-05,
+    1.1711509614542592e-05,
+    1.1711509614542592e-05,
+    1.1711509614542592e-05,
+    1.1711509614542592e-05,
+    1.1711509614542592e-05,
+    1.1711509614542592e-05,
+    1.1711509614542592e-05,
+    1.1711509614542592e-05,
+    1.1711509614542592e-05,
+    1.1711509614542592e-05,
+    1.1711509614542592e-05,
+    1.1711509614542592e-05,
+    1.1711509614542592e-05,
+    1.1711509614542592e-05,
+    1.1711509614542592e-05,
+    1.1711509614542592e-05,
+    1.1711509614542592e-05,
+    1.1711509614542592e-05,
+    1.1711509614542592e-05,
+    5.855754807271296e-06,
+    5.855754807271296e-06,
+    5.855754807271296e-06,
+    5.855754807271296e-06
+   ]
+  },
+  "best": [
+   {
+    "breed": "African Hunting Dog",
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 26
+   },
+   {
+    "breed": "Kerry Blue Terrier",
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 25
+   },
+   {
+    "breed": "Dhole",
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 23
+   },
+   {
+    "breed": "Sealyham Terrier",
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 23
+   },
+   {
+    "breed": "Blenheim Spaniel",
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 22
+   }
+  ],
+  "worst": [
+   {
+    "breed": "Japanese Spitzes",
+    "precision": 0.556,
+    "recall": 0.2,
+    "f1-score": 0.294,
+    "support": 25
+   },
+   {
+    "breed": "Mix",
+    "precision": 0.8,
+    "recall": 0.267,
+    "f1-score": 0.4,
+    "support": 15
+   },
+   {
+    "breed": "American Pit Bull Terrier",
+    "precision": 0.474,
+    "recall": 0.45,
+    "f1-score": 0.462,
+    "support": 20
+   },
+   {
+    "breed": "American Staffordshire Terrier",
+    "precision": 0.476,
+    "recall": 0.455,
+    "f1-score": 0.465,
+    "support": 22
+   },
+   {
+    "breed": "Toy Poodle",
+    "precision": 0.497,
+    "recall": 0.507,
+    "f1-score": 0.502,
+    "support": 150
+   }
+  ],
+  "confusions": [
+   {
+    "actual": "Teddy",
+    "predicted": "Toy Poodle",
+    "count": 54,
+    "shared_word": ""
+   },
+   {
+    "actual": "Toy Poodle",
+    "predicted": "Teddy",
+    "count": 41,
+    "shared_word": ""
+   },
+   {
+    "actual": "Toy Poodle",
+    "predicted": "Bichon Frise",
+    "count": 19,
+    "shared_word": ""
+   },
+   {
+    "actual": "Siberian Husky",
+    "predicted": "Malamute",
+    "count": 13,
+    "shared_word": ""
+   },
+   {
+    "actual": "Chinese Rural Dog",
+    "predicted": "Papillon",
+    "count": 13,
+    "shared_word": ""
+   },
+   {
+    "actual": "Japanese Spitzes",
+    "predicted": "Samoyed",
+    "count": 10,
+    "shared_word": ""
+   },
+   {
+    "actual": "Japanese Spitzes",
+    "predicted": "Pomeranian",
+    "count": 10,
+    "shared_word": ""
+   },
+   {
+    "actual": "Pembroke",
+    "predicted": "Cardigan",
+    "count": 9,
+    "shared_word": ""
+   },
+   {
+    "actual": "Pekinese",
+    "predicted": "Chinese Rural Dog",
+    "count": 9,
+    "shared_word": ""
+   },
+   {
+    "actual": "Eskimo Dog",
+    "predicted": "Siberian Husky",
+    "count": 8,
+    "shared_word": ""
+   }
+  ],
+  "per_source": {
+   "hyperai_dogbreeds": 0.6458,
+   "kaggle_breedid": 1.0,
+   "oxford": 0.8627,
+   "stanford": 0.8788,
+   "tsinghua": 0.817
+  },
+  "n_test": 5560,
+  "n_breeds_with_5": 135
+ },
+ "tuning": {
+  "arch": "EfficientNetV2B0",
+  "best_score": 0.8226256966590881,
+  "trials": {
+   "COMPLETE": 8,
+   "PRUNED": 4
+  },
+  "importance": {
+   "lr_head": 0.175,
+   "lr_ft": 0.162,
+   "ls": 0.147,
+   "wd": 0.146,
+   "dropout": 0.127,
+   "aug": 0.124,
+   "unfreeze": 0.119,
+   "dense": 0.0,
+   "batch": 0.0
+  },
+  "best_params": {
+   "dropout": 0.38242799368681435,
+   "dense": 0,
+   "ls": 0.10284688768272232,
+   "lr_head": 0.0011736424885649085,
+   "lr_ft": 1.1711509955524086e-05,
+   "wd": 0.004362599362560562,
+   "unfreeze": 0.33641929894983325,
+   "aug": 0.06505159298527952,
+   "batch": 32,
+   "arch": "EfficientNetV2B0"
+  },
+  "searched": [
+   "dropout",
+   "dense",
+   "ls",
+   "lr_head",
+   "lr_ft",
+   "wd",
+   "unfreeze",
+   "aug",
+   "batch"
+  ]
+ },
+ "leaderboard": [
+  {
+   "arch": "EfficientNetV2B0",
+   "n_classes": 138,
+   "score": 0.8123,
+   "val_top1": 0.8123,
+   "val_top5": 0.9746,
+   "train_val_gap": 0.0009,
+   "params_m": 6.1,
+   "minutes": 3.3,
+   "imgs_per_s": 302
+  },
+  {
+   "arch": "EfficientNetB0",
+   "n_classes": 138,
+   "score": 0.7912,
+   "val_top1": 0.7912,
+   "val_top5": 0.9679,
+   "train_val_gap": 0.0259,
+   "params_m": 4.2,
+   "minutes": 3.8,
+   "imgs_per_s": 263
+  },
+  {
+   "arch": "InceptionV3",
+   "n_classes": 138,
+   "score": 0.7578,
+   "val_top1": 0.7578,
+   "val_top5": 0.9673,
+   "train_val_gap": 0.0854,
+   "params_m": 22.1,
+   "minutes": 3.3,
+   "imgs_per_s": 303
+  },
+  {
+   "arch": "ResNet50",
+   "n_classes": 138,
+   "score": 0.7435,
+   "val_top1": 0.7435,
+   "val_top5": 0.9512,
+   "train_val_gap": 0.0791,
+   "params_m": 23.9,
+   "minutes": 4.8,
+   "imgs_per_s": 210
+  },
+  {
+   "arch": "MobileNetV2",
+   "n_classes": 138,
+   "score": 0.7411,
+   "val_top1": 0.7411,
+   "val_top5": 0.9456,
+   "train_val_gap": -0.0383,
+   "params_m": 2.4,
+   "minutes": 3.1,
+   "imgs_per_s": 324
+  },
+  {
+   "arch": "MobileNet",
+   "n_classes": 138,
+   "score": 0.6884,
+   "val_top1": 0.6884,
+   "val_top5": 0.9309,
+   "train_val_gap": -0.0189,
+   "params_m": 3.4,
+   "minutes": 2.5,
+   "imgs_per_s": 396
+  },
+  {
+   "arch": "VGG19",
+   "n_classes": 138,
+   "score": 0.674,
+   "val_top1": 0.674,
+   "val_top5": 0.9275,
+   "train_val_gap": -0.0101,
+   "params_m": 20.1,
+   "minutes": 3.3,
+   "imgs_per_s": 305
+  },
+  {
+   "arch": "VGG16",
+   "n_classes": 138,
+   "score": 0.652,
+   "val_top1": 0.652,
+   "val_top5": 0.9155,
+   "train_val_gap": -0.0173,
+   "params_m": 14.8,
+   "minutes": 2.8,
+   "imgs_per_s": 352
+  }
+ ],
+ "comparison": [
+  {
+   "Model": "Custom CNN (from scratch)",
+   "Accuracy": 0.5260791366906474,
+   "Precision (macro)": 0.48220878006865864,
+   "Recall (macro)": 0.43636446455687333,
+   "F1-score (macro)": 0.43507460866457154,
+   "Top-5 accuracy": 0.8339928057553957,
+   "Training time (min)": 54.7,
+   "Parameters (millions)": 1.38,
+   "Epochs run": 30
+  },
+  {
+   "Model": "Transfer learning, default settings",
+   "Accuracy": 0.8393884892086331,
+   "Precision (macro)": 0.8488834293536746,
+   "Recall (macro)": 0.8374857126014372,
+   "F1-score (macro)": 0.8366377504219278,
+   "Top-5 accuracy": 0.9800359712230216,
+   "Training time (min)": 15.8,
+   "Parameters (millions)": 6.1,
+   "Epochs run": 8
+  },
+  {
+   "Model": "Transfer learning, tuned + early stopping",
+   "Accuracy": 0.841726618705036,
+   "Precision (macro)": 0.8500036151390258,
+   "Recall (macro)": 0.8367052545920771,
+   "F1-score (macro)": 0.8379561504027031,
+   "Top-5 accuracy": 0.9796762589928057,
+   "Training time (min)": 55.9,
+   "Parameters (millions)": 6.1,
+   "Epochs run": 28
+  }
+ ],
+ "new_images": [
+  {
+   "file": "test_01_Airedale.jpg",
+   "actual": "Airedale",
+   "predicted": "Airedale",
+   "confidence": 0.9391049742698669,
+   "correct": true,
+   "top3": [
+    [
+     "Airedale",
+     0.9391049742698669
+    ],
+    [
+     "Lakeland Terrier",
+     0.006646618712693453
+    ],
+    [
+     "Irish Terrier",
+     0.004745867568999529
+    ]
+   ]
+  },
+  {
+   "file": "test_02_Shiba_Inu.jpg",
+   "actual": "Shiba Inu",
+   "predicted": "Shiba Dog",
+   "confidence": 0.5907967686653137,
+   "correct": false,
+   "top3": [
+    [
+     "Shiba Dog",
+     0.5907967686653137
+    ],
+    [
+     "Shiba Inu",
+     0.11634881794452667
+    ],
+    [
+     "Pembroke",
+     0.02554953657090664
+    ]
+   ]
+  },
+  {
+   "file": "test_03_Chinese_Crested_Dog.jpg",
+   "actual": "Chinese Crested Dog",
+   "predicted": "Pomeranian",
+   "confidence": 0.2477952241897583,
+   "correct": false,
+   "top3": [
+    [
+     "Pomeranian",
+     0.2477952241897583
+    ],
+    [
+     "Chinese Crested Dog",
+     0.17947521805763245
+    ],
+    [
+     "Pekinese",
+     0.11210455745458603
+    ]
+   ]
+  },
+  {
+   "file": "test_04_Curly_Coated_Retriever.jpg",
+   "actual": "Curly Coated Retriever",
+   "predicted": "Curly Coated Retriever",
+   "confidence": 0.827318549156189,
+   "correct": true,
+   "top3": [
+    [
+     "Curly Coated Retriever",
+     0.827318549156189
+    ],
+    [
+     "Chesapeake Bay Retriever",
+     0.038254525512456894
+    ],
+    [
+     "Irish Water Spaniel",
+     0.021923048421740532
+    ]
+   ]
+  },
+  {
+   "file": "test_05_Lakeland_Terrier.jpg",
+   "actual": "Lakeland Terrier",
+   "predicted": "Lakeland Terrier",
+   "confidence": 0.8644335269927979,
+   "correct": true,
+   "top3": [
+    [
+     "Lakeland Terrier",
+     0.8644335269927979
+    ],
+    [
+     "Airedale",
+     0.028027497231960297
+    ],
+    [
+     "Otterhound",
+     0.020096343010663986
+    ]
+   ]
+  },
+  {
+   "file": "test_06_Rhodesian_Ridgeback.jpg",
+   "actual": "Rhodesian Ridgeback",
+   "predicted": "Rhodesian Ridgeback",
+   "confidence": 0.7821704745292664,
+   "correct": true,
+   "top3": [
+    [
+     "Rhodesian Ridgeback",
+     0.7821704745292664
+    ],
+    [
+     "Great Dane",
+     0.038449179381132126
+    ],
+    [
+     "Redbone",
+     0.03472745791077614
+    ]
+   ]
+  },
+  {
+   "file": "test_07_Komondor.jpg",
+   "actual": "Komondor",
+   "predicted": "Komondor",
+   "confidence": 0.9001742601394653,
+   "correct": true,
+   "top3": [
+    [
+     "Komondor",
+     0.9001742601394653
+    ],
+    [
+     "Teddy",
+     0.003626998048275709
+    ],
+    [
+     "Wheaten Terrier",
+     0.0025223183911293745
+    ]
+   ]
+  },
+  {
+   "file": "test_08_Cocker_Spaniel.jpg",
+   "actual": "Cocker Spaniel",
+   "predicted": "Cocker Spaniel",
+   "confidence": 0.9439634084701538,
+   "correct": true,
+   "top3": [
+    [
+     "Cocker Spaniel",
+     0.9439634084701538
+    ],
+    [
+     "Blenheim Spaniel",
+     0.003289824817329645
+    ],
+    [
+     "Welsh Springer Spaniel",
+     0.003104586387053132
+    ]
+   ]
+  },
+  {
+   "file": "test_09_Chow.jpg",
+   "actual": "Chow",
+   "predicted": "Newfoundland",
+   "confidence": 0.284320592880249,
+   "correct": false,
+   "top3": [
+    [
+     "Newfoundland",
+     0.284320592880249
+    ],
+    [
+     "Chow",
+     0.2680104970932007
+    ],
+    [
+     "Samoyed",
+     0.134074404835701
+    ]
+   ]
+  },
+  {
+   "file": "test_10_Groenendael.jpg",
+   "actual": "Groenendael",
+   "predicted": "Groenendael",
+   "confidence": 0.944840133190155,
+   "correct": true,
+   "top3": [
+    [
+     "Groenendael",
+     0.944840133190155
+    ],
+    [
+     "Scotch Terrier",
+     0.0036768487188965082
+    ],
+    [
+     "Schipperke",
+     0.002028407994657755
+    ]
+   ]
+  },
+  {
+   "file": "test_11_Norwich_Terrier.jpg",
+   "actual": "Norwich Terrier",
+   "predicted": "Norwich Terrier",
+   "confidence": 0.7036411166191101,
+   "correct": true,
+   "top3": [
+    [
+     "Norwich Terrier",
+     0.7036411166191101
+    ],
+    [
+     "Norfolk Terrier",
+     0.09878674894571304
+    ],
+    [
+     "Australian Terrier",
+     0.05356795713305473
+    ]
+   ]
+  },
+  {
+   "file": "test_12_Borzoi.jpg",
+   "actual": "Borzoi",
+   "predicted": "Borzoi",
+   "confidence": 0.9101690649986267,
+   "correct": true,
+   "top3": [
+    [
+     "Borzoi",
+     0.9101690649986267
+    ],
+    [
+     "Border Collie",
+     0.006659602280706167
+    ],
+    [
+     "Saluki",
+     0.005251758266240358
+    ]
+   ]
+  }
+ ],
+ "deploy": {
+  "tflite_ok": true,
+  "tflite_mb": 12.182932,
+  "keras_mb": 82.843186,
+  "agreement": 1.0,
+  "max_prob_diff": 0.0027206242084503174,
+  "latency_ms": 41.13018115361532,
+  "n_checked": 60
+ },
+ "api_test": {
+  "ok": true,
+  "replies": [
+   {
+    "actual": "Airedale",
+    "reply": {
+     "filename": "0005226.jpg",
+     "predicted_breed": "Airedale",
+     "best_guess": "Airedale",
+     "confidence": 0.9389,
+     "top_k": [
+      {
+       "breed": "Airedale",
+       "probability": 0.9389
+      },
+      {
+       "breed": "Lakeland Terrier",
+       "probability": 0.0067
+      },
+      {
+       "breed": "Irish Terrier",
+       "probability": 0.0047
+      },
+      {
+       "breed": "Wire Haired Fox Terrier",
+       "probability": 0.0043
+      },
+      {
+       "breed": "Standard Poodle",
+       "probability": 0.0018
+      }
+     ]
+    }
+   },
+   {
+    "actual": "Shiba Inu",
+    "reply": {
+     "filename": "0021058.jpg",
+     "predicted_breed": "Shiba Dog",
+     "best_guess": "Shiba Dog",
+     "confidence": 0.5909,
+     "top_k": [
+      {
+       "breed": "Shiba Dog",
+       "probability": 0.5909
+      },
+      {
+       "breed": "Shiba Inu",
+       "probability": 0.1162
+      },
+      {
+       "breed": "Pembroke",
+       "probability": 0.0255
+      },
+      {
+       "breed": "Japanese Spitzes",
+       "probability": 0.0175
+      },
+      {
+       "breed": "Pomeranian",
+       "probability": 0.0148
+      }
+     ]
+    }
+   },
+   {
+    "actual": "Chinese Crested Dog",
+    "reply": {
+     "filename": "0029308.jpg",
+     "predicted_breed": "unsure",
+     "best_guess": "Pomeranian",
+     "confidence": 0.2467,
+     "top_k": [
+      {
+       "breed": "Pomeranian",
+       "probability": 0.2467
+      },
+      {
+       "breed": "Chinese Crested Dog",
+       "probability": 0.1789
+      },
+      {
+       "breed": "Pekinese",
+       "probability": 0.1126
+      },
+      {
+       "breed": "Chihuahua",
+       "probability": 0.0577
+      },
+      {
+       "breed": "Keeshond",
+       "probability": 0.0548
+      }
+     ]
+    }
+   },
+   {
+    "actual": "Curly Coated Retriever",
+    "reply": {
+     "filename": "0093047.jpg",
+     "predicted_breed": "Curly Coated Retriever",
+     "best_guess": "Curly Coated Retriever",
+     "confidence": 0.8267,
+     "top_k": [
+      {
+       "breed": "Curly Coated Retriever",
+       "probability": 0.8267
+      },
+      {
+       "breed": "Chesapeake Bay Retriever",
+       "probability": 0.0385
+      },
+      {
+       "breed": "Irish Water Spaniel",
+       "probability": 0.0219
+      },
+      {
+       "breed": "Teddy",
+       "probability": 0.0063
+      },
+      {
+       "breed": "Kerry Blue Terrier",
+       "probability": 0.0052
+      }
+     ]
+    }
+   }
+  ],
+  "bad_upload_status": 400
+ },
+ "uploaded": [
+  {
+   "file": "chiweenie (1).webp",
+   "predicted": "Miniature Pinscher",
+   "confidence": 0.31462761759757996
+  }
+ ]
+}

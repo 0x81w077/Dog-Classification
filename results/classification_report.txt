@@ -1,0 +1,144 @@
+                                precision    recall  f1-score   support
+
+                 Affenpinscher      1.000     1.000     1.000        20
+                  Afghan Hound      0.964     1.000     0.982        27
+           African Hunting Dog      1.000     1.000     1.000        26
+                      Airedale      0.808     1.000     0.894        21
+              American Bulldog      0.750     0.750     0.750        20
+     American Pit Bull Terrier      0.474     0.450     0.462        20
+American Staffordshire Terrier      0.476     0.455     0.465        22
+                   Appenzeller      0.778     0.875     0.824        24
+           Australian Shepherd      0.909     0.833     0.870        24
+            Australian Terrier      0.762     0.762     0.762        21
+                       Basenji      0.962     0.893     0.926        28
+                        Basset      0.936     0.957     0.946        46
+                        Beagle      0.865     0.900     0.882        50
+            Bedlington Terrier      0.957     1.000     0.978        22
+          Bernese Mountain Dog      0.815     0.957     0.880        23
+                  Bichon Frise      0.794     0.927     0.855       150
+       Black And Tan Coonhound      0.955     0.955     0.955        22
+                   Black Sable      0.760     0.760     0.760        25
+              Blenheim Spaniel      1.000     1.000     1.000        22
+                    Bloodhound      0.833     0.909     0.870        22
+                      Bluetick      1.000     0.957     0.978        23
+                 Border Collie      0.865     0.940     0.901       150
+                Border Terrier      0.913     1.000     0.955        21
+                        Borzoi      1.000     0.917     0.957        24
+                   Boston Bull      0.793     0.920     0.852        25
+          Bouvier Des Flandres      0.917     0.957     0.936        23
+                         Boxer      0.870     0.930     0.899        43
+              Brabancon Griffo      1.000     1.000     1.000        21
+                        Briard      0.880     0.917     0.898        24
+              Brittany Spaniel      0.895     0.708     0.791        24
+                  Bull Mastiff      0.913     0.840     0.875        25
+                         Cairn      0.952     0.909     0.930        22
+                    Cane Carso      0.826     0.760     0.792        25
+                      Cardigan      0.887     0.887     0.887       150
+            Caucasian Ovcharka      1.000     1.000     1.000         3
+      Chesapeake Bay Retriever      0.923     1.000     0.960        24
+                     Chihuahua      0.784     0.625     0.696        64
+           Chinese Crested Dog      0.900     0.783     0.837        23
+             Chinese Rural Dog      0.575     0.487     0.527       150
+                          Chow      0.816     0.912     0.861        34
+                       Clumber      0.960     0.960     0.960        25
+                Cocker Spaniel      0.870     0.922     0.895        51
+                        Collie      0.737     0.609     0.667        23
+        Curly Coated Retriever      0.833     0.952     0.889        21
+                     Dachshund      1.000     0.333     0.500         3
+                Dandie Dinmont      1.000     0.913     0.955        23
+                         Dhole      1.000     1.000     1.000        23
+                         Dingo      0.917     0.957     0.936        23
+                      Doberman      0.957     1.000     0.978        22
+              English Foxhound      0.762     0.696     0.727        23
+                English Setter      0.929     0.975     0.951        40
+              English Springer      0.857     0.857     0.857        28
+                   Entlebucher      0.778     0.583     0.667        24
+                    Eskimo Dog      0.647     0.440     0.524        25
+               Fila Braziliero      0.810     0.810     0.810        21
+         Flat Coated Retriever      0.880     1.000     0.936        22
+                French Bulldog      0.930     0.947     0.939       113
+               German Shepherd      0.625     0.652     0.638        23
+   German Short Haired Pointer      0.909     0.976     0.941        41
+               Giant Schnauzer      0.750     0.875     0.808        24
+              Golden Retriever      0.922     0.940     0.931       150
+                 Gordon Setter      1.000     0.958     0.979        24
+                    Great Dane      0.800     0.870     0.833        23
+                Great Pyrenees      0.836     1.000     0.911        46
+    Greater Swiss Mountain Dog      0.875     0.840     0.857        25
+                   Groenendael      0.917     0.957     0.936        23
+                      Havanese      0.542     0.650     0.591        20
+                  Ibizan Hound      0.917     1.000     0.957        22
+                  Irish Setter      0.913     0.955     0.933        22
+                 Irish Terrier      0.857     0.818     0.837        22
+           Irish Water Spaniel      1.000     0.870     0.930        23
+               Irish Wolfhound      0.800     0.889     0.842        27
+             Italian Greyhound      0.897     0.963     0.929        27
+              Japanese Spaniel      0.936     0.978     0.957        45
+              Japanese Spitzes      0.556     0.200     0.294        25
+                      Keeshond      0.932     0.953     0.943        43
+                        Kelpie      0.679     0.864     0.760        22
+            Kerry Blue Terrier      1.000     1.000     1.000        25
+                      Komondor      0.944     1.000     0.971        34
+                        Kuvasz      1.000     0.792     0.884        24
+            Labrador Retriever      0.869     0.927     0.897       150
+              Lakeland Terrier      0.850     0.773     0.810        22
+                      Leonberg      0.958     1.000     0.979        46
+                         Lhasa      0.875     0.667     0.757        21
+                      Malamute      0.848     0.918     0.882       134
+                      Malinois      0.957     0.917     0.936        24
+                   Maltese Dog      0.742     0.852     0.793        27
+              Mexican Hairless      0.957     0.957     0.957        23
+            Miniature Pinscher      0.807     0.870     0.838        77
+              Miniature Poodle      0.846     0.524     0.647        21
+           Miniature Schnauzer      0.936     0.880     0.907       150
+                           Mix      0.800     0.267     0.400        15
+                  Newfoundland      0.894     0.977     0.933        43
+               Norfolk Terrier      0.810     0.810     0.810        21
+            Norwegian Elkhound      0.957     1.000     0.978        22
+               Norwich Terrier      0.952     0.870     0.909        23
+          Old English Sheepdog      1.000     0.852     0.920        27
+                    Otterhound      1.000     0.783     0.878        23
+                      Papillon      0.617     0.610     0.613        82
+                      Pekinese      0.615     0.500     0.552        48
+                      Pembroke      0.650     0.591     0.619        22
+                    Pomeranian      0.831     0.853     0.842       150
+                           Pug      0.990     0.952     0.971       105
+                       Redbone      0.850     0.773     0.810        22
+           Rhodesian Ridgeback      0.704     0.760     0.731        25
+                    Rottweiler      1.000     0.913     0.955        23
+                 Saint Bernard      0.975     0.929     0.951        42
+                        Saluki      0.958     0.958     0.958        24
+                       Samoyed      0.849     0.940     0.892       150
+                    Schipperke      0.875     1.000     0.933        21
+                Scotch Terrier      0.975     0.951     0.963        41
+            Scottish Deerhound      0.840     0.840     0.840        25
+              Sealyham Terrier      1.000     1.000     1.000        23
+             Shetland Sheepdog      0.893     0.862     0.877        29
+                         Shiba      0.000     0.000     0.000         2
+                     Shiba Dog      0.894     0.894     0.894       104
+                     Shiba Inu      0.842     0.800     0.821        20
+                      Shih Tzu      0.652     0.789     0.714        38
+                Siberian Husky      0.861     0.832     0.846       119
+                 Silky Terrier      0.714     0.833     0.769        24
+     Staffordshire Bullterrier      0.733     0.825     0.776        40
+               Standard Poodle      0.788     0.788     0.788        33
+            Standard Schnauzer      0.704     0.792     0.745        24
+                Sussex Spaniel      0.955     0.955     0.955        22
+                         Teddy      0.656     0.573     0.612       150
+               Tibetan Mastiff      0.944     0.810     0.872        21
+               Tibetan Terrier      0.800     0.762     0.780        21
+                    Toy Poodle      0.497     0.507     0.502       150
+                   Toy Terrier      0.857     0.692     0.766        26
+                        Vizsla      0.950     0.864     0.905        22
+                  Walker Hound      0.647     0.524     0.579        21
+                    Weimaraner      0.962     1.000     0.980        25
+        Welsh Springer Spaniel      0.810     0.810     0.810        21
+   West Highland White Terrier      0.750     1.000     0.857        24
+               Wheaten Terrier      0.929     0.907     0.918        43
+                       Whippet      0.920     0.821     0.868        28
+       Wire Haired Fox Terrier      0.857     0.783     0.818        23
+             Yorkshire Terrier      0.922     0.855     0.887        55
+
+                      accuracy                          0.842      5560
+                     macro avg      0.850     0.837     0.838      5560
+                  weighted avg      0.840     0.842     0.838      5560
